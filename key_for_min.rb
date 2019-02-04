@@ -11,5 +11,4 @@ def key_for_min_value(name_hash)
     arr_b[0] < arr_b[1] ? name_hash.key(arr_b[0]) : name_hash.key(arr_b[1])
   else
    nil
-
 end
