@@ -20,4 +20,5 @@ def key_for_min_value(name_hash)
   else
     name_hash.key(arr_b[1])
   end
+  nil
 end
