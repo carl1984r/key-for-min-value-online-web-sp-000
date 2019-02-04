@@ -14,4 +14,6 @@ def key_for_min_value(name_hash)
     arr_b << arr[1]
   else
     arr_b << arr[2]
+  end
+  arr_b
 end
