@@ -16,7 +16,7 @@ def key_for_min_value(name_hash)
     arr_b << arr[2]
   end
   if arr_b[0] == nil || arr_b[1] == nil
-    nil
+    print
   elsif arr_b[0] < arr_b [1]
     name_hash.key(arr_b[0])
   else
