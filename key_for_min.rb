@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   arr_b = []
   name_hash.each {|x,y| arr << y}
   arr.length != 3
-   puts
+  print
   arr[0] < arr[1] ? arr_b << arr[0] : arr_b << arr[1]
   arr[1] < arr[2] ? arr_b << arr[1] : arr_b << arr[2]
   arr_b[0] < arr_b[1] ? name_hash.key(arr_b[0]) : name_hash.key(arr_b[1])
