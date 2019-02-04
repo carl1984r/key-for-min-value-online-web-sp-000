@@ -6,11 +6,7 @@ def key_for_min_value(name_hash)
   arr_b = []
   name_hash.each {|x,y| arr << y}
   arr[0] < arr[1] ? arr_b << arr[0] : arr_b << arr[1]
-  if arr[1] < arr[2]
-    arr_b << arr[1]
-  else
-    arr_b << arr[2]
-  end
+  arr[1] < arr[2] ? arr_b << arr[1] : arr_b << arr[2] 
   if arr_b[0] < arr_b[1]
     name_hash.key(arr_b[0])
   else
