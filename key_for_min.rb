@@ -4,6 +4,5 @@
 def key_for_min_value(name_hash)
   arr = []
   name_hash.each {|x,y|} arr << y
-
-
+  arr
 end
