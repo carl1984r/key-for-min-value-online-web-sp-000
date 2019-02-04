@@ -19,5 +19,5 @@ def key_for_min_value(name_hash)
     arr_b[0]
   else
     arr_b[1]
-  end 
+  end
 end
