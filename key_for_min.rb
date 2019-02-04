@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   arr = []
   arr_b = []
-  name_hash.each {|x,y| arr << y}
+  name_hash.each {|x,y| arr << y if y != nil}
   if arr[0] < arr[1]
     arr_b << arr[0]
   else
