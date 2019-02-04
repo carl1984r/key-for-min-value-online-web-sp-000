@@ -17,7 +17,7 @@ def key_for_min_value(name_hash)
   end
   if arr_b[0] < arr_b[1]
     name_hash.key(arr_b[0])
-  else
+  elsif
     name_hash.key(arr_b[1])
   end
 end
